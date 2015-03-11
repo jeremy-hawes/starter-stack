@@ -1,0 +1,21 @@
+
+%[if %( %id=myCheckbox% == 1)% ]%
+
+	<div id="stack_name_%id%">
+		
+		%text="Turn this section off with the checkbox"%
+		%slice%
+		%image%
+		
+	</div>
+
+%[endif]%
+
+%[if !edit]%
+	<h3>%text="This shows only outside of edit mode"%</h3>
+%[endif]%
+
+%[if edit]%
+	<h3>%text="This shows only in edit mode"%</h3>
+%[endif]%
+     

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.onelittledesigner.stacks.1LD_Starter</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>RWAddonAuthor</key>
+	<string>1LD Themes &amp; Stacks</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.onelittledesigner.com/</string>
+	<key>SUFeedURL</key>
+	<string>http://updates.onelittledesigner.com/appcast/appcast.php</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>images</string>
+		</dict>
+	</array>
+	<key>cssFile</key>
+	<string>style.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>title</key>
+			<string>See all the beautiful options</string>
+			<key>type</key>
+			<string>info</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>falseValue</key>
+			<string>0</string>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>myCheckbox</string>
+			<key>title</key>
+			<string>Checkbox</string>
+			<key>toolTip</key>
+			<string>Uncheck to hide options</string>
+			<key>trueValue</key>
+			<string>1</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>fake1</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>One</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Two</string>
+					<key>value</key>
+					<string>2</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Three</string>
+					<key>value</key>
+					<string>3</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Drop-Down Menu</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>myInput</string>
+			<key>title</key>
+			<string>Input Field</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>0</integer>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>mySlider</string>
+			<key>max</key>
+			<integer>10</integer>
+			<key>min</key>
+			<integer>-10</integer>
+			<key>round</key>
+			<true/>
+			<key>snap</key>
+			<true/>
+			<key>ticks</key>
+			<integer>11</integer>
+			<key>title</key>
+			<string>Slider</string>
+			<key>toolTip</key>
+			<string>"round" turned off allows decimal points</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<real>0.5</real>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>myNumber</string>
+			<key>max</key>
+			<integer>50</integer>
+			<key>min</key>
+			<string>0</string>
+			<key>round</key>
+			<false/>
+			<key>title</key>
+			<string>Number</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>myImage</string>
+			<key>title</key>
+			<string>Image</string>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+		<dict>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FF6600</string>
+			<key>enable</key>
+			<dict>
+				<key>id</key>
+				<string>myCheckbox</string>
+				<key>value</key>
+				<true/>
+			</dict>
+			<key>group</key>
+			<string>Start Stack</string>
+			<key>id</key>
+			<string>myColor</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>1LD Stacks</string>
+	<key>helpURL</key>
+	<string>http://onelittledesigner.com/rapidweaver-stack/simple-text/</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>
+	<key>subtitle</key>
+	<string>Starting Point for Stack Dev Projects</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Starter Stack</string>
+</dict>
+</plist>
